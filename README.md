@@ -10,7 +10,10 @@ This project predicts whether a given text is AI-generated or human-written usin
 - Jupyter Notebook
 
 ## Model Used
-- Random Forest 
+-Implemented SVM
+-Implemented Logistic Regression
+-Implemented Random Forest
+-Finally selected Random Forest 
 
 ## Dataset
 Balanced dataset of AI and human prompts.
