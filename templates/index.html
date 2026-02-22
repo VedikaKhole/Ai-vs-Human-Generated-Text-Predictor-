@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI vs Human Text Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🤖 AI vs 🧑 Human Text Detector</h1>
+
+    <form method="POST">
+        <textarea name="user_text" placeholder="Enter your text here..." required></textarea>
+        <br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction == "Human" %}
+        <div class="result-human">🧑 Human Generated Text</div>
+    {% elif prediction == "AI" %}
+        <div class="result-ai">🤖 AI Generated Text</div>
+    {% endif %}
+
+    <div class="footer">
+        Built using NLP, TF-IDF & Machine Learning
+    </div>
+</div>
+
+</body>
+</html>

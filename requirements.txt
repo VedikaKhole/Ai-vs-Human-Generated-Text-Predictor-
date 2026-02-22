@@ -1,0 +1,11 @@
+numpy
+pandas
+openpyxl
+matplotlib 
+seaborn
+scikit-learn
+joblib
+streamlit
+
+#pip install -r requirement.txt
+#framework to connect python with html ,css : django , flask 
